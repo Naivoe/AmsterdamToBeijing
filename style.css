@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro{
+    min-height: 100vh;
+    position: relative;
+}
+
+.intro img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%; 
+    z-index: 1;
+    object-fit: cover;
+    mix-blend-mode: lighten;
+    animation: reveal 1s ease forwards;
+    opacity: 0;
+}
+
+.intro video{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;  
+    width: 100%;
+    object-fit: cover;
+    animation: reveal 1s ease 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes reveal{
+    from{
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
