@@ -1,15 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>China</title>
+
     <link rel="stylesheet" href="style.css">
+    <script src="map/jquery-3.5.1.min.js"></script>
+    <script src="/app.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
-    <div class="intro">
-        <img src="/assets/lady_2.1.1.jpg" alt="">
-        <video autoplay muted loop src="/assets/walking.mp4"></video>
+
+    <section class="showcase">
+        <header>
+            <h2 class="logo">China</h2>
+            <div class="toggle"></div>
+
+        </header>
+
+        <video src="/assets/china.mp4" loop muted autoplay></video>
+
+        <div class="overlay"></div>
+
+        <div class="text">
+            <h2>China</h2>
+            <h3>Unexplored</h3>
+            <p><q>I did not write half of what I saw, for I knew I would not be believed</q><br>
+                -Marco Polo-</p>
+            <button id="btn-down">Explore!</button>
+        </div>
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="">Map</a></li>
+            <li><a href="">Cuisine</a></li>
+            <li><a href="">Culture</a></li>
+            <li><a href="">Travel</a></li>
+        </ul>
     </div>
+
+
+    <section id="sec-2">
+        <div class="bg-grid">
+            <div class="grid-content">
+
+                <div class="content-box">
+                    <a href="map.html">
+                        <h1 class="text-box">Map</h1>
+                        <img src="/assets/pexels-suzy-hazelwood-1098526.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="content-box">
+                    <a href="cuisine.html">
+                        <h1 class="text-box">Cuisine</h1>
+                        <img src="/assets/pexels-rodnae-productions-6646544.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="content-box">
+                    <a href="culture.html">
+                        <h1 class="text-box">Culture</h1>
+                        <img src="/assets/pexels-lian-rodriguez-2915957.jpg" alt="">
+                    </a>
+                </div>
+
+                <div class="content-box">
+                    <a href="map.html">
+                        <h1 class="text-box">Travel</h1>
+                        <img src="/assets/pexels-fabrizio-verrecchia-298018.jpg" alt="">
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
 </body>
+
 </html>

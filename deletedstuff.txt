@@ -1,0 +1,108 @@
+/* header  li, header a, header button {
+    font-family: 'MedievalSharp';
+    font-weight: 500;
+    font-size: 19px;
+    color: white;
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+
+    position: absolute;
+    mix-blend-mode: normal;
+    width: 100%;
+
+} */
+
+/* 
+.logo {
+    cursor: pointer;
+    font-family: 'MedievalSharp';
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    padding: 0px 40px;
+}
+
+.nav-links li a:hover {
+    transition: all 0.3s ease 0s;
+    color: #FFF;
+    border-bottom: solid #fff 2px;
+} */
+
+
+/* \\\\\\\\\\\\\\\\\COVER ////////////////////////////*/
+
+/* .intro {
+    display: flex;
+    height: 100vh;
+}
+
+.intro img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+}
+
+.intro-text h2 {
+    font-size: 25px;
+    color: #fff;
+    font-weight: 100;
+    font-family: 'MedievalSharp';
+}
+
+.intro-text {
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 10px 10px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} */
+
+/* .grid-content{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    gap: 10px;
+} */
+
+HTML:
+
+
+    <!-- <header class="nav">
+        <h2 class="logo">Chinese Dreams</h2>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Provinces</a></li>
+                <li><a href="#">Top 25</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Contact</button></a>
+    </header>
+
+    <div class="intro">
+        <img src="/assets/13913568_1105184649528671_365225116693265623_o.jpg" alt="">
+        <div class="intro-text">
+            <h2><q>I did not write half of what I saw, for I knew I would not be believed</q><br>
+                -Marco Polo-</h2>
+        </div>
+        <div class="btn-down">
+            <button id="btn-down">Explore!</button>
+        </div>
+    </div> -->
