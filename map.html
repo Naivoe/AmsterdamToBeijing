@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>China</title>
+
+    <link rel="stylesheet" href="map.css">
+    <link rel="stylesheet" href="map/jquery-jvectormap-2.0.5.css" type="text/css" media="screen" />
+    <script src="map/jquery-3.5.1.min.js"></script>
+    <script src="app.js"></script>
+    <script src="map/jquery-jvectormap-2.0.5.min.js"></script>
+    <script src="map/jquery-jvectormap-cn-merc.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <header>
+        <a href="Index.html">
+            <h2 class="logo">Chinese Dreams</h2>
+        </a>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Culture</a></li>
+                <li><a href="#">Provinces</a></li>
+                <li><a href="#">Top 25</a></li>
+            </ul>
+        </nav>
+        <a href="#"><button>Contact</button></a>
+    </header>
+
+
+
+    <section id="sec-1">
+        <div class="map-text">
+            <h2>Map Text</h2><br>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloribus corrupti dolores labore vel non quis
+                voluptates, ratione iure error aut tenetur repellendus natus, dolorem debitis ex et, eos magni eaque.
+                <br>
+                Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatum doloribus necessitatibus,
+                repudiandae,
+                harum
+                inventore natus facere voluptatibus, tempora explicabo sapiente ad officia ab et iste quis cupiditate
+                quidem. Aperiam, enim?</p>
+        </div>
+
+
+
+        <div class="map-container">
+            <div id="map" class="Imap"></div>
+        </div>
+
+        <div class="btn-down">
+            <button id="btn-down">Provinces</button>
+        </div>
+    </section>
+
+
+    <section id="sec-2">
+            <div class="grid-text">
+                <h1><span>Provinces of China</span></h1>
+            </div>
+            <div class="article-container">
+                <div class="grid-content">
+
+
+                    <article class="article-card">
+                        <figure class="article-image">
+                            <img src="/assets/pexels-mentatdgt-1167160.jpg" alt="">
+                        </figure>
+                        <div class="article-content">
+                            <a href="" class="card-category">Soup</a>
+                            <h3 class="card-title">The best in China</h3>
+                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
+                                tenetur ut quas, repellendus laboriosam vitae earum ipsum, accusamus ex ea, itaque
+                                veritatis est debitis soluta nostrum dolorem voluptate sapiente pariatur?
+                            </p>
+                        </div>
+                    </article>
+    </section>
+
+    <script>
+        $(function () {
+            $('#map').vectorMap({
+                map: 'cn_merc',
+                backgroundColor: ""
+            });
+        });
+    </script>
+
+</body>
+
+</html>
