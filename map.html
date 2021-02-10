@@ -70,24 +70,29 @@
 
                     <article class="article-card">
                         <figure class="article-image">
-                            <img src="/assets/pexels-mentatdgt-1167160.jpg" alt="">
+                            <img src="/assets/pexels-zhang-kaiyv-189833.jpg" alt="">
                         </figure>
                         <div class="article-content">
-                            <a href="" class="card-category">Soup</a>
+                            <a href="" class="card-category">Beijing</a>
                             <h3 class="card-title">The best in China</h3>
-                            <p class="card-text"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi
-                                tenetur ut quas, repellendus laboriosam vitae earum ipsum, accusamus ex ea, itaque
-                                veritatis est debitis soluta nostrum dolorem voluptate sapiente pariatur?
-                            </p>
+                            <p class="card-text"> Lorem ipsum</p>
                         </div>
                     </article>
+
+                </div>
+            </div>
     </section>
 
     <script>
         $(function () {
             $('#map').vectorMap({
                 map: 'cn_merc',
-                backgroundColor: ""
+                backgroundColor: "",
+                onRegionClick: function (event, code) {
+
+               if (code === 'CN-32') {window.location.href = "https://www.google.com/"}
+    
+}
             });
         });
     </script>
