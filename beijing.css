@@ -72,10 +72,23 @@ button:hover{
 .cus-text{
     text-align: center;
     margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.cus-text p{
+    display: inline-block;
+    padding: 0 100px;
+    line-height: 1.5;
+    letter-spacing: .1px;
+    font-size: 16px;
 }
 
 .intro-text{
     font-size: 16pt;
+}
+
+.title-text{
+    text-align: center;
 }
 
 .grid-text h1 span{
